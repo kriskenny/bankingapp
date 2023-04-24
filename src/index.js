@@ -3,6 +3,13 @@ const require = createRequire();
 import React from "react";
 import ReactBootstrap from "react-bootstrap";
 import axios from "axios";
+import Home from './Components/home';
+import NavBar from './Components/navbar';
+import CreateAccount from './Components/createaccount';
+import Deposit from './Components/deposit';
+import Withdraw from './Components/withdraw';
+import AllData from './Components/alldata';
+import { HashRouter, Route, Routes} from 'react-router-dom';
 
 
 function Spa() {
