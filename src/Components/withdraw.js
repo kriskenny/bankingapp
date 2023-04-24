@@ -1,8 +1,8 @@
-import { createRequire } from 'module';
+
 import React, { useState } from 'react';
 import { Card, Form, Alert } from 'react-bootstrap';
 
-const require = createRequire();
+
 function WithdrawPage() {
   const currentUser = localStorage.getItem("currentUser");
   var user = JSON.parse(localStorage.getItem(currentUser));
