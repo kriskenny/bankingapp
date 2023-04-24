@@ -1,9 +1,9 @@
-import { createRequire } from 'module';
+
 import React, { useState } from 'react';
 import Card from './context.js';
 
 
-const require = createRequire();
+
 export const UserContext = React.createContext({
   users: [],
   addUser: () => {},
