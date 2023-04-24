@@ -2,7 +2,7 @@ import { createRequire } from 'module';
 const require = createRequire();
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import "bootstrap/dist/css/bootstrap.min.css"
+import "dist/css/bootstrap.min.css"
 
 export const UserContext = React.createContext({
   users: [],
