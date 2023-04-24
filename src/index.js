@@ -1,5 +1,4 @@
 import { createRequire } from 'module';
-const require = createRequire();
 import React from "react";
 import ReactBootstrap from "react-bootstrap";
 import axios from "axios";
@@ -10,7 +9,8 @@ import Deposit from './Components/deposit';
 import Withdraw from './Components/withdraw';
 import AllData from './Components/alldata';
 import { HashRouter, Route, Routes} from 'react-router-dom';
-
+import UserContext from './Components/usercontext.js';
+const require = createRequire();
 
 function Spa() {
 
@@ -21,7 +21,7 @@ function Spa() {
         <div className="container" style={{padding: "20px"}}>
           <Route path="/" exact component={Home} />
           <Route path="/CreateAccount/" component={CreateAccount} />
-          <Route path="/login/" component={Login} />
+         
           <Route path="/deposit/" component={Deposit} />
           <Route path="/withdraw/" component={Withdraw} />
           
