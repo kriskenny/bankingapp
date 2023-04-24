@@ -1,8 +1,7 @@
-import { createRequire } from 'module';
+
 import React from "react";
 import * as Bootstrap from 'react-bootstrap';
 
-const require = createRequire();
 function NavBar(){
     return(
       <div className="App">
