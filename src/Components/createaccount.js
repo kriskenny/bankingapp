@@ -1,7 +1,7 @@
 import { createRequire } from 'module';
 import React, { useState } from 'react';
 import Card from './context.js';
-import "bootstrap/dist/css/bootstrap.min.css"
+
 
 const require = createRequire();
 export const UserContext = React.createContext({
