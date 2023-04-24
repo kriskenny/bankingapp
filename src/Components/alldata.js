@@ -1,12 +1,12 @@
-import { createRequire } from 'module';
+
 import React from "react";
 import Layout from "./layout.js";
 
-const require = createRequire();
+
 const AllData = () => {
   const usernames = [];
   for (var i = 0; i < localStorage.length; i++){
-    if (localStorage.key(i) != 'currentUser') {
+    if (localStorage.key(i) !== 'currentUser') {
       var user = JSON.parse(localStorage.getItem(localStorage.key(i)));
       usernames.push(<p>Name : {user.name}</p>)
       usernames.push(<p>Email : {user.email}</p>)
