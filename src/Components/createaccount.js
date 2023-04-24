@@ -20,7 +20,7 @@ export default function CreateAccount(props){
   const [users, setUsers] = useState([]);
   const [tableData, setTableData] = useState([]);
   const balance = 100;
-  const [success, setSuccess] = useState(false);
+  const [setSuccess] = useState(false);
 
   console.log(status);
   
