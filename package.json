@@ -2,7 +2,7 @@
   "name": "bankingapp",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://kristen-kennybankingapplication.s3.us-west-2.amazonaws.com/src/index.html/#/"
+  "homepage": "https://kristen-kennybankingapplication.s3.us-west-2.amazonaws.com/src/index.html/#/",
   "presets": ["@babel/preset-react"],
   "private": true,
   "dependencies": {
