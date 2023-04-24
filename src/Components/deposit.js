@@ -1,9 +1,9 @@
-import { createRequire } from 'module';
+
 import { useState } from 'react';
 import { Card, Form, Button, Alert } from 'react-bootstrap';
 import React from 'react';
 
-const require = createRequire();
+
 function DepositPage() {
   const currentUser = localStorage.getItem("currentUser");
   var user = JSON.parse(localStorage.getItem(currentUser));
