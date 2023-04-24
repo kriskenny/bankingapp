@@ -1,11 +1,11 @@
-import { createRequire } from 'module';
+
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Image from './PNW.png';
 import pic from './deposit.png'
 import picture from './withdraw.png'
 
-const require = createRequire();
+
 
 function Home(){
  
